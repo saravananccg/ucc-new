@@ -79,9 +79,9 @@
             <p>
               <b>SUPPORT</b>
             </p>
-            <a href="#">Home</a>
+            <router-link to="/">Home </router-link>
             <br />
-            <a href="#">About Us</a>
+            <router-link to="/about">About Us </router-link>
             <br />
             <a href="#">Help Centre</a>
             <br />
