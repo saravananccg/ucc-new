@@ -38,7 +38,7 @@
                     id="inputPassword2"
                     placeholder="Email Address"
                   />&nbsp;
-                  <v-btn rounded light color="white ">Sign Up</v-btn>
+                  <v-btn light color="white ">Sign Up</v-btn>
                 </div>
               </form>
               <div class="form-check">
@@ -205,7 +205,7 @@ input[type="text"] {
   background-color: #fff;
 }
 .form-check-input {
-  padding: 0px;
+  padding: 02px;
 }
 .form-inline {
   padding-bottom: 10px;

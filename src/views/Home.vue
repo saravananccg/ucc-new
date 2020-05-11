@@ -85,9 +85,9 @@
         </v-card>
       </v-flex>
     </v-layout>
-    <v-layout row text-xs-center wrap style="padding:0px 20px 0px 60px;">
-      <v-flex xs12 sm12 md4 lg4 xl4 style="padding:20px 20px 0px 0px">
-        <v-card light flat>
+    <v-layout row text-xs-center wrap style="padding:0px 60px 0px 60px;">
+      <v-flex xs12 sm12 md4 lg4 xl4 style="padding:20px 0px 0px 0px">
+        <v-card light flat style="padding:0px 20px 0px 0px">
           <v-img src="../assets/care_provider_icon.png" width="51"></v-img>
           <h4>Care Providers</h4>
           <p>
@@ -99,8 +99,8 @@
           </p>
         </v-card>
       </v-flex>
-      <v-flex xs12 sm12 md4 lg4 xl4 style="padding:20px 20px 0px 0px">
-        <v-card light flat>
+      <v-flex xs12 sm12 md4 lg4 xl4 style="padding:20px 0px 0px 0px">
+        <v-card light flat style="padding:0px 20px 0px 0px">
           <v-img src="../assets/phb_icon.png" width="65"></v-img>
           <h4>Personal Health Budgets</h4>
           <p>
@@ -112,8 +112,8 @@
           </p>
         </v-card>
       </v-flex>
-      <v-flex xs12 sm12 md4 lg4 xl4 style="padding:20px 10px 0px 0px">
-        <v-card light flat>
+      <v-flex xs12 sm12 md4 lg4 xl4 style="padding:20px 0px 0px 0px">
+        <v-card light flat style="padding:0px 20px 0px 0px">
           <v-img src="../assets/nurse_icon.png" width="37"></v-img>
           <h4>Care Workers & Nurses</h4>
           <p>
@@ -177,7 +177,7 @@ h2 {
   font-size: 42px;
   letter-spacing: 0.25px;
   line-height: 52px;
-  font-weight: 400;
+  font-weight: 500;
 }
 .h2-small {
   font-size: 28px;
@@ -190,7 +190,7 @@ h4 {
   letter-spacing: 0.25px;
   line-height: 29px;
   font-weight: normal;
-  padding: 10px 0px;
+  padding: 18px 0px;
 }
 p {
   font-size: 20px;

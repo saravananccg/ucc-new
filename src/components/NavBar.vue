@@ -1,7 +1,7 @@
 <template>
   <div style="background-color:#000; height:65px !important">
     <v-container style="padding:0px">
-      <v-toolbar dark fixed color="black">
+      <v-toolbar dark flat fixed color="black">
         <router-link to="/">
           <div style="display:flex;align-items:center;padding-right:10px">
             <img src="../assets/ucclogo.png" />

@@ -12,7 +12,7 @@
 <script>
 import NavBar from "./components/NavBar";
 import Footer from "./components/Footer";
-
+//import AboutContainer from "./components/AboutContainer";
 export default {
   name: "App",
   components: {
