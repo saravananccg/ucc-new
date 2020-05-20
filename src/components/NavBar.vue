@@ -15,13 +15,13 @@
           <router-link to="/about">
             <v-btn outline color="black">About Us</v-btn>
           </router-link>
-          <router-link to="/">
+          <router-link to="/care-providers">
             <v-btn outline color="black">Care Providers</v-btn>
           </router-link>
-          <router-link to="/">
+          <router-link to="/care-workers">
             <v-btn outline color="black">Care Workers</v-btn>
           </router-link>
-          <router-link to="/">
+          <router-link to="/nurses">
             <v-btn outline color="black">Nurses</v-btn>
           </router-link>
         </v-toolbar-items>
@@ -64,7 +64,8 @@ export default {
     return {
       menu: [
         { title: "Home", link: "/" },
-        { title: "About Us", link: "/about" }
+        { title: "About Us", link: "/about" },
+        { title: "Care Providers", link: "/care-providers" }
       ]
     };
   }

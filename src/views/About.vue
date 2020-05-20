@@ -12,7 +12,7 @@
           </v-col>
           <v-col xs="12" sm="12" md="12" lg="12" xl="12">
             <v-card flat light color="#fff" class="pg-60">
-              <v-row>
+              <v-row no-gutters>
                 <v-col cols="12" xs="12" sm="12" md="10" lg="10" xl="10">
                   <h2>We ignite opportunity by setting the world in motion</h2>
                   <br />
@@ -79,7 +79,7 @@
             </v-card>
           </v-col>
           <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-            <v-card flat light color="#fff" class="pg-60">
+            <v-card flat light color="#fff" class="pg-blr-60">
               <v-row>
                 <v-col
                   xs="12"
@@ -88,7 +88,7 @@
                   lg="6"
                   xl="6"
                   :class="{
-                    'd-flex align-center pa-4': $vuetify.breakpoint.mdAndUp
+                    'd-flex align-center pa-2': $vuetify.breakpoint.mdAndUp
                   }"
                 >
                   <div>
@@ -107,7 +107,16 @@
                     </p>
                   </div>
                 </v-col>
-                <v-col xs="12" sm="12" md="6" lg="6" xl="6">
+                <v-col
+                  xs="12"
+                  sm="12"
+                  md="6"
+                  lg="6"
+                  xl="6"
+                  :class="{
+                    'd-flex align-center pa-8': $vuetify.breakpoint.mdAndUp
+                  }"
+                >
                   <v-img src="../assets/about-shield.svg" width="100%"></v-img>
                 </v-col>
               </v-row>

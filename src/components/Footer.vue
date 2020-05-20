@@ -94,11 +94,11 @@
               <p>
                 <b>COMPANY</b>
               </p>
-              <a href="#">Care Providers</a>
+              <router-link to="/care-providers">Care Providers</router-link>
               <br />
-              <a href="#">Care Workers</a>
+              <router-link to="/care-workers">Care Workers</router-link>
               <br />
-              <a href="#">Nurses</a>
+              <router-link to="/nurses">Nurses</router-link>
               <br />
               <a href="#">Career</a>
               <br />

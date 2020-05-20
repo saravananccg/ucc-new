@@ -53,20 +53,20 @@ h4 {
   font-size: 24px;
   letter-spacing: 0.25px;
   line-height: 29px;
-  font-weight: normal;
+  font-weight: 500;
   padding: 18px 0px;
 }
 p {
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 1.25px;
-  font-weight: 300;
+  font-weight: 400;
   a {
-    font-weight: 400;
+    font-weight: 500;
     color: #000 !important;
   }
   a:hover {
-    font-weight: 400;
+    font-weight: 500;
     color: #005eb8 !important;
     text-decoration: underline;
   }
@@ -122,6 +122,9 @@ input[type="text"] {
 }
 .pg-lr-60 {
   padding: 0px 60px;
+}
+.pg-blr-60 {
+  padding: 0px 60px 60px 60px;
 }
 .pg-top-20 {
   padding: 20px 0px 0px 0px;
