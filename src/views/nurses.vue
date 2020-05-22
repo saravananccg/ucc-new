@@ -1,12 +1,12 @@
 <template>
   <div>
     <div>
-      <v-container style="padding:0px;">
+      <v-container>
         <v-row no-gutters>
           <v-col xs="12" sm="12" md="12" lg="12" xl="12">
             <v-card flat light color="#fff" class="pg-60">
               <v-row no-gutters>
-                <v-col cols="12" xs="12" sm="12" md="6" lg="6" xl="6">
+                <v-col xs="12" sm="12" md="6" lg="6" xl="6">
                   <h1>Driving safety forwards</h1>
                   <br />
                   <p>
@@ -29,108 +29,96 @@
       ></v-img>
     </div>
     <div>
-      <v-container style="padding:0px;">
+      <v-container>
         <v-row no-gutters>
           <v-col xs="12" sm="12" md="12" lg="12" xl="12">
             <v-card flat light color="#fff" class="pg-60">
               <v-row>
-                <v-col xs="12" sm="12" md="4" lg="4" xl="4">
+                <v-col cols="auto" xs="12" sm="12" md="4" lg="4" xl="4">
                   <v-img
                     src="../assets/care_provider_icon.png"
                     width="51"
                   ></v-img>
                   <h4>Emergency assistance</h4>
-                  <p class="pg-right-35">
+                  <p>
                     Get help fast. Call local emergency services right from the
                     app, wherever you are.
                   </p>
                 </v-col>
-                <v-col xs="12" sm="12" md="4" lg="4" xl="4">
+                <v-col cols="auto" xs="12" sm="12" md="4" lg="4" xl="4">
                   <v-img src="../assets/phb_icon.png" width="65"></v-img>
                   <h4>24/7 Customer Support</h4>
-                  <p class="pg-right-35">
+                  <p>
                     Whether you have a quick question or an incident to report,
                     it’s easy to get the help you need. Access 24/7 support
                     directly through the app, whenever you need it.
                   </p>
                 </v-col>
-                <v-col xs="12" sm="12" md="4" lg="4" xl="4">
+                <v-col cols="auto" xs="12" sm="12" md="4" lg="4" xl="4">
                   <v-img src="../assets/nurse_icon.png" width="37"></v-img>
                   <h4>Share My Trip</h4>
-                  <p class="pg-right-35">
+                  <p>
                     Let the people you love know where you are. Choose your
                     Trusted Contacts in the app and set reminders to share your
                     trip details with them.
                   </p>
                 </v-col>
-              </v-row>
-            </v-card>
-          </v-col>
-          <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-            <v-card flat light color="#fff" class="pg-blr-60">
-              <v-row>
-                <v-col xs="12" sm="12" md="4" lg="4" xl="4">
+                <v-col cols="auto" xs="12" sm="12" md="4" lg="4" xl="4">
                   <v-img
                     src="../assets/care_provider_icon.png"
                     width="51"
                   ></v-img>
                   <h4>Safety Centre</h4>
-                  <p class="pg-right-35">
+                  <p>
                     Visit the in-app Safety Centre to learn what we're doing to
                     help keep you safe. Just tap the shield icon the next time
                     you take a trip.
                   </p>
                 </v-col>
-                <v-col xs="12" sm="12" md="4" lg="4" xl="4">
+                <v-col cols="auto" xs="12" sm="12" md="4" lg="4" xl="4">
                   <v-img src="../assets/phb_icon.png" width="65"></v-img>
                   <h4>2-way Ratings</h4>
-                  <p class="pg-right-35">
+                  <p>
                     Your feedback matters. The two-way rating system maintains
                     an enjoyable Uber experience and helps keep riders and
                     drivers safe. A consistently low-rating can lead to
                     suspension or deactivation.
                   </p>
                 </v-col>
-                <v-col xs="12" sm="12" md="4" lg="4" xl="4">
+                <v-col cols="auto" xs="12" sm="12" md="4" lg="4" xl="4">
                   <v-img src="../assets/nurse_icon.png" width="37"></v-img>
                   <h4>GPS Tracking</h4>
-                  <p class="pg-right-35">
+                  <p>
                     All Uber rides are tracked by GPS from start to finish, so
                     you can follow your ride and see exactly where you’re going.
                   </p>
                 </v-col>
-              </v-row>
-            </v-card>
-          </v-col>
-          <v-col xs="12" sm="12" md="12" lg="12" xl="12">
-            <v-card flat light color="#fff" class="pg-blr-60">
-              <v-row>
-                <v-col xs="12" sm="12" md="4" lg="4" xl="4">
+                <v-col cols="auto" xs="12" sm="12" md="4" lg="4" xl="4">
                   <v-img
                     src="../assets/care_provider_icon.png"
                     width="51"
                   ></v-img>
                   <h4>Phone Number Anonymization</h4>
-                  <p class="pg-right-35">
+                  <p>
                     Calls and messages made using the Uber app do not reveal
                     personal phone numbers. Your details are automatically
                     protected.
                   </p>
                 </v-col>
-                <v-col xs="12" sm="12" md="4" lg="4" xl="4">
+                <v-col cols="auto" xs="12" sm="12" md="4" lg="4" xl="4">
                   <v-img src="../assets/phb_icon.png" width="65"></v-img>
                   <h4>Driver Profile</h4>
-                  <p class="pg-right-35">
+                  <p>
                     Get to know your driver before you step into their car. You
                     can see their rating, how many trips they've completed, how
                     long they’ve been driving, compliments from previous riders,
                     and more.
                   </p>
                 </v-col>
-                <v-col xs="12" sm="12" md="4" lg="4" xl="4">
+                <v-col cols="auto" xs="12" sm="12" md="4" lg="4" xl="4">
                   <v-img src="../assets/nurse_icon.png" width="37"></v-img>
                   <h4>Ride Check</h4>
-                  <p class="pg-right-35">
+                  <p>
                     Using sensors and GPS data, RideCheck can help detect if a
                     trip has an unexpected long stop. If so, we'll check on you
                     and offer tools to get help.¹
@@ -139,6 +127,7 @@
               </v-row>
             </v-card>
           </v-col>
+
           <v-col xs="12" sm="12" md="12" lg="12" xl="12">
             <v-card flat light color="#fff" class="pg-lr-60">
               <v-row>
@@ -196,7 +185,7 @@
               light
               :class="{
                 'pa-12': $vuetify.breakpoint.smAndDown,
-                'd-flex': $vuetify.breakpoint.mdAndUp
+                'd-flex justify-center': $vuetify.breakpoint.mdAndUp
               }"
             >
               <div>

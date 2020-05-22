@@ -79,10 +79,10 @@
       <v-col xs="12" sm="12" md="12" lg="12" xl="12">
         <v-card flat light color="#fff" class="pg-lr-60">
           <v-row>
-            <v-col xs="12" sm="12" md="4" lg="4" xl="4">
+            <v-col cols="auto" xs="12" sm="12" md="4" lg="4" xl="4">
               <v-img src="../assets/care_provider_icon.png" width="51"></v-img>
               <h4>Care Providers</h4>
-              <p class="pg-right-35">
+              <p class="pr-9">
                 Get full access to our online portal for FREE to connect, book
                 and directly pay to your caregivers
               </p>
@@ -90,10 +90,10 @@
                 <a href="#">Learn more</a>
               </p>
             </v-col>
-            <v-col xs="12" sm="12" md="4" lg="4" xl="4">
+            <v-col cols="auto" xs="12" sm="12" md="4" lg="4" xl="4">
               <v-img src="../assets/phb_icon.png" width="65"></v-img>
               <h4>Personal Health Budgets</h4>
-              <p class="pg-right-35">
+              <p class="pr-9">
                 Find your next PA effortlessly. With us you don’t have the
                 trouble of long hiring procedures
               </p>
@@ -101,10 +101,10 @@
                 <a href="#">Learn more</a>
               </p>
             </v-col>
-            <v-col xs="12" sm="12" md="4" lg="4" xl="4">
+            <v-col cols="auto" xs="12" sm="12" md="4" lg="4" xl="4">
               <v-img src="../assets/nurse_icon.png" width="37"></v-img>
               <h4>Care Workers & Nurses</h4>
-              <p class="pg-right-35">
+              <p class="pr-9">
                 Earn respectfully with the local jobs available near you, paid
                 directly to your account without deductions
               </p>
@@ -128,7 +128,7 @@
           light
           :class="{
             'pa-12': $vuetify.breakpoint.smAndDown,
-            'd-flex': $vuetify.breakpoint.mdAndUp
+            'd-flex justify-center': $vuetify.breakpoint.mdAndUp
           }"
         >
           <div>

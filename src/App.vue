@@ -149,4 +149,68 @@ input[type="text"] {
   justify-content: center;
   align-self: center;
 }
+
+@media (max-width: 700px) {
+  * {
+    text-transform: none !important;
+    font-family: Roboto;
+    margin: 0px;
+    padding: 0px;
+  }
+  h1 {
+    font-size: 36px;
+    letter-spacing: 0.25px;
+    line-height: 44px;
+    padding-bottom: 10px;
+  }
+  h2 {
+    font-size: 28px;
+    letter-spacing: 0.25px;
+    line-height: 36px;
+    font-weight: 500;
+  }
+  .h2-small {
+    font-size: 28px;
+    letter-spacing: 0.25px;
+    line-height: 36px;
+    font-weight: 400;
+  }
+  h4 {
+    font-size: 18px;
+    letter-spacing: 0.25px;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 18px 0px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.25px;
+    font-weight: 400;
+    a {
+      font-weight: 500;
+      color: #000 !important;
+    }
+    a:hover {
+      font-weight: 500;
+      color: #005eb8 !important;
+      text-decoration: underline;
+    }
+  }
+  .no-outline {
+    font-size: 20px;
+    padding: 12px 0px 12px 0px;
+  }
+  .no-outline:focus {
+    outline: none;
+  }
+  .big-font-link-bg {
+    display: flex;
+    align-items: center;
+    padding: 20px 0px;
+    h2 {
+      font-size: 20px;
+    }
+  }
+}
 </style>

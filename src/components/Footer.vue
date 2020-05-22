@@ -39,7 +39,12 @@
                       id="inputPassword2"
                       placeholder="Email Address"
                     />&nbsp;
-                    <v-btn light color="white ">Sign Up</v-btn>
+                    <router-link
+                      to="/contact"
+                      :class="{ 'btn-small': $vuetify.breakpoint.smAndDown }"
+                    >
+                      <v-btn light color="white ">Sign Up</v-btn>
+                    </router-link>
                   </div>
                 </form>
                 <div class="form-check">
@@ -50,8 +55,8 @@
                     id="defaultCheck1"
                   />
                   <label class="form-label pa-1" for="defaultCheck1">
-                    I agree to Urban Care Community’s Privacy and
-                    <br />Terms & Conditions
+                    I agree to Urban Care Community’s Privacy and Terms &
+                    Conditions
                   </label>
                 </div>
               </div>

@@ -196,7 +196,7 @@
               light
               :class="{
                 'pa-12': $vuetify.breakpoint.smAndDown,
-                'd-flex': $vuetify.breakpoint.mdAndUp
+                'd-flex justify-center': $vuetify.breakpoint.mdAndUp
               }"
             >
               <div>

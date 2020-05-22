@@ -3,7 +3,7 @@
     <div>
       <v-container style="padding:0px;">
         <v-row no-gutters>
-          <v-col xs="12" sm="12" md="12" lg="12" xl="12">
+          <v-col cols="auto" xs="12" sm="12" md="12" lg="12" xl="12">
             <v-img src="../assets/About_us_600.jpg" width="100%">
               <div class="about-banner">
                 <h1>About Us</h1>
@@ -13,7 +13,7 @@
           <v-col xs="12" sm="12" md="12" lg="12" xl="12">
             <v-card flat light color="#fff" class="pg-60">
               <v-row no-gutters>
-                <v-col cols="12" xs="12" sm="12" md="10" lg="10" xl="10">
+                <v-col cols="auto" xs="12" sm="12" md="10" lg="10" xl="10">
                   <h2>We ignite opportunity by setting the world in motion</h2>
                   <br />
                   <p>
@@ -31,7 +31,7 @@
           <v-col xs="12" sm="12" md="12" lg="12" xl="12">
             <v-card flat light color="#fff" class="pg-lr-60">
               <v-row>
-                <v-col xs="12" sm="12" md="6" lg="6" xl="6">
+                <v-col cols="auto" xs="12" sm="12" md="6" lg="6" xl="6">
                   <v-img src="../assets/about_us2.jpg" width="100%"></v-img>
                   <br />
                 </v-col>
@@ -65,10 +65,10 @@
                           'p-2': $vuetify.breakpoint.mdAndUp
                         }"
                       >
-                        <v-col xs="12" sm="12" md="7" lg="7" xl="7">
+                        <v-col cols="auto" xs="12" sm="12" md="7" lg="7" xl="7">
                           <a href="#">How to use the Uber app</a>
                         </v-col>
-                        <v-col xs="12" sm="12" md="5" lg="5" xl="5">
+                        <v-col cols="auto" xs="12" sm="12" md="5" lg="5" xl="5">
                           <a href="#">Our Offerings</a>
                         </v-col>
                       </v-row>
@@ -82,6 +82,7 @@
             <v-card flat light color="#fff" class="pg-blr-60">
               <v-row>
                 <v-col
+                  cols="auto"
                   xs="12"
                   sm="12"
                   md="6"
@@ -122,15 +123,15 @@
               </v-row>
             </v-card>
           </v-col>
-          <v-col xs="12" sm="12" md="12" lg="12" xl="12">
+          <v-col cols="auto" xs="12" sm="12" md="12" lg="12" xl="12">
             <v-card flat class="pg-lr-60">
               <h2>Keep up with the latest</h2>
             </v-card>
           </v-col>
-          <v-col xs="12" sm="12" md="12" lg="12" xl="12">
+          <v-col cols="auto" xs="12" sm="12" md="12" lg="12" xl="12">
             <v-card flat light color="#fff" class="pg-60">
               <v-row>
-                <v-col xs="12" sm="12" md="4" lg="4" xl="4">
+                <v-col cols="auto" xs="12" sm="12" md="4" lg="4" xl="4">
                   <v-img
                     src="../assets/care_provider_icon.png"
                     width="51"
@@ -144,7 +145,7 @@
                     <a href="#">Learn more</a>
                   </p>
                 </v-col>
-                <v-col xs="12" sm="12" md="4" lg="4" xl="4">
+                <v-col cols="auto" xs="12" sm="12" md="4" lg="4" xl="4">
                   <v-img src="../assets/phb_icon.png" width="65"></v-img>
                   <h4>Blog</h4>
                   <p class="pg-right-35">
@@ -155,7 +156,7 @@
                     <a href="#">Learn more</a>
                   </p>
                 </v-col>
-                <v-col xs="12" sm="12" md="4" lg="4" xl="4">
+                <v-col cols="auto" xs="12" sm="12" md="4" lg="4" xl="4">
                   <v-img src="../assets/nurse_icon.png" width="37"></v-img>
                   <h4>Investor relations</h4>
                   <p class="pg-right-35">
@@ -175,10 +176,11 @@
     <div style="background-color:#f6f6f6;margin:0px;padding:0px">
       <v-container>
         <v-row no-gutters>
-          <v-col xs="12" sm="12" md="12" lg="12" xl="12">
+          <v-col cols="auto" xs="12" sm="12" md="12" lg="12" xl="12">
             <v-card flat light color="#f6f6f6" class="pg-60">
               <v-row>
                 <v-col
+                  cols="auto"
                   xs="12"
                   sm="12"
                   md="6"
@@ -197,7 +199,7 @@
                   </v-card>
                 </v-col>
 
-                <v-col xs="12" sm="12" md="6" lg="6" xl="6">
+                <v-col cols="auto" xs="12" sm="12" md="6" lg="6" xl="6">
                   <v-card flat light color="#f6f6f6">
                     <v-img src="../assets/about-globe.svg" width="100%"></v-img>
                   </v-card>
